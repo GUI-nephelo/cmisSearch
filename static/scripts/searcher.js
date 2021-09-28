@@ -1,6 +1,6 @@
 var callback;
 
-var sUrl="http://www.gui-nephelo.tk:20119/"
+var sUrl="http://student.gui-nephelo.ml:60000/"
 if(sessionStorage["keekie"]==undefined){sessionStorage["keekie"]="";}
 
 $.getUrlParam = function(name) {
