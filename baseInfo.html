@@ -147,7 +147,7 @@
         //alert(sessionStorage.keekie)
         if(sessionStorage.uid==undefined||sessionStorage.isauth==undefined){
             document.write("<h1>Error!! Illegal entrance</h1>");
-            setTimeout(()=>{location.href="searcher.html"},1000);//跳回搜索入口
+            setTimeout(()=>{location.href="/"},1000);//跳回搜索入口
         }
         if(sessionStorage.isauth=="false"){
             await doAuth()
