@@ -64,7 +64,7 @@ function append(c){
     p.append(c.clone())
 }
 window.onload=async ()=>{
-    sll=await new Promise((resolve,rej)=>{$.getJSON("./static/data/110112.json",(val)=>{resolve(val)})})
+    sll=await new Promise((resolve,rej)=>{$.getJSON("/static/data/110112.json",(val)=>{resolve(val)})})
     var sl=await new Promise((resolve,reject)=>{
         GET(sUrl+"/getPhotoUrl",{},(val)=>{
             resolve(val)
